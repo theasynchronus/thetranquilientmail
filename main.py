@@ -14,4 +14,4 @@ async def on_ready():
 	bot.load_extension("cogs.onMessage")
 	await bot.change_presence(status=discord.Status.online, activity=discord.Activity(type=discord.ActivityType.watching, name='DMs for Help.'))
 
-bot.run('TKOENNNN')
+bot.run('*TOKEN*')
